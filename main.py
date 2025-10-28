@@ -56,7 +56,7 @@ def crack_multiword():
                 exit()
 
     print("\n\n[!] No words have been found in the encrypted text which could match with one of the words in the wordlist ")
-    print("[I] Try using a different wordlist or different level settings\n")
+    print("[I] Try using a different wordlist\n")
     exit()
 
 
@@ -80,7 +80,7 @@ def crack_oneword():
                     print("\n------------------------------------")
                     exit()
     print("\n\n[!] No words have been found in the encrypted text which could match with one of the words in the wordlist ")
-    print("[I] Try using a different wordlist or different level settings\n")
+    print("[I] Try using a different wordlist\n")
     exit()
 
     
@@ -93,3 +93,4 @@ if word_count == 1:
     crack_oneword()
 else:
     crack_multiword()
+
